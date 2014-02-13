@@ -1,0 +1,24 @@
+<?xml version="1.0" ?><manifest>
+
+  <include name="base-kk.xml"/>
+  <remote fetch="git://github.com/michaelwu/" name="mwu"/>
+
+  <default remote="caf" revision="kk_3.5_rb1.11" sync-j="4"/>
+
+  <!-- Falcon specific things -->
+  <project name="device-falcon" path="device/motorola/falcon" remote="mwu" revision="master"/>
+  <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
+  <project name="device_qcom_common" path="device/qcom/common" remote="mwu" revision="kk_3.5_rb1.11-falcon"/>
+  <project name="kernel-msm" path="kernel" remote="mwu" revision="kk_3.5_rb1.11-falcon"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
+  <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
+  <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
+  <project name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
+  <project name="platform/hardware/ril" path="hardware/ril"/>
+  <project name="platform/system/bluetooth" path="system/bluetooth"/>
+  <project name="platform/vendor/qcom/msm8226" path="device/qcom/msm8226"/>
+  <project name="platform/vendor/qcom-opensource/wlan/prima" path="vendor/qcom/opensource/wlan/prima"/>
+
+</manifest>

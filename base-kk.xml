@@ -9,7 +9,7 @@
   <remote fetch="https://git.mozilla.org/releases" name="mozillaorg"/>
 
   <!-- B2G specific things. -->
-  <project name="platform_build" path="build" remote="b2g" revision="b2g-4.4.2_r1">
+  <project name="platform_build" path="build" remote="mwu" revision="b2g-4.4.2_r1">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project> 
   <project name="gaia" path="gaia" remote="mozillaorg" revision="master"/>
@@ -59,7 +59,7 @@
   <project name="platform/external/gtest" path="external/gtest"/>
   <project name="platform/external/harfbuzz" path="external/harfbuzz"/>
   <project name="platform/external/harfbuzz_ng" path="external/harfbuzz_ng"/>
-  <project name="platform/external/icu4c" path="external/icu4c" remote="aosp"/>
+  <project name="platform/external/icu4c" path="external/icu4c"/>
   <project name="platform/external/iproute2" path="external/iproute2"/>
   <project name="platform/external/ipsec-tools" path="external/ipsec-tools"/>
   <project name="platform/external/iptables" path="external/iptables"/>
@@ -123,7 +123,7 @@
   <project name="platform/system/security" path="system/security"/>
   <project name="platform/system/vold" path="system/vold"/>
 
-  <project name="platform_frameworks_av" path="frameworks/av" remote="b2g" revision="b2g-4.4.2_r1"/>
-  <project name="platform_system_core" path="system/core" remote="b2g" revision="b2g-4.4.2_r1"/>
+  <project name="platform/frameworks/av" path="frameworks/av"/>
+  <project name="platform_system_core" path="system/core" remote="mwu" revision="kk_3.5_rb1.11-falcon"/>
 
 </manifest>
