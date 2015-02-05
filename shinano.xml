@@ -28,5 +28,6 @@
   <project name="platform/system/core" path="system/core" revision="b2g_kk_3.5"/>
   <project name="platform/system/qcom" path="system/qcom"/>
   <project name="platform/vendor/qcom/copper" path="device/qcom/msm8974"/>
+  <project name="vendor_broadcom_wlan" path="vendor/broadcom/wlan" remote="b2g" revision="shinano"/>
 
 </manifest>
